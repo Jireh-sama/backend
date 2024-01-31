@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5937264.css",
-    "main.js": "/static/js/main.b74631d0.js",
+    "main.css": "/static/css/main.7282a5ed.css",
+    "main.js": "/static/js/main.d8a20391.js",
     "static/js/787.2b66e6b9.chunk.js": "/static/js/787.2b66e6b9.chunk.js",
     "static/media/gcash-logo.png": "/static/media/gcash-logo.0b924e4278f12cc6398b.png",
     "static/media/infortal-logo-white-cropped.png": "/static/media/infortal-logo-white-cropped.233b983371782106bfc8.png",
@@ -13,12 +13,12 @@
     "static/media/undraw_online_information_re_erks.svg": "/static/media/undraw_online_information_re_erks.58172ac21698560a82e293b6ef23ba9b.svg",
     "static/media/creditCard.svg": "/static/media/creditCard.6d3367d7f288f8caa601b49804214eca.svg",
     "index.html": "/index.html",
-    "main.a5937264.css.map": "/static/css/main.a5937264.css.map",
-    "main.b74631d0.js.map": "/static/js/main.b74631d0.js.map",
+    "main.7282a5ed.css.map": "/static/css/main.7282a5ed.css.map",
+    "main.d8a20391.js.map": "/static/js/main.d8a20391.js.map",
     "787.2b66e6b9.chunk.js.map": "/static/js/787.2b66e6b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5937264.css",
-    "static/js/main.b74631d0.js"
+    "static/css/main.7282a5ed.css",
+    "static/js/main.d8a20391.js"
   ]
 }
