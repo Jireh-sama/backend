@@ -34,7 +34,7 @@ DATABASE_URL = "postgres://infortal_database_user:emrjOL4rikBpXxsZpSqyRBwtePej4g
 SECRET_KEY = 'django-insecure-4*=*y2o#dd5w)q+prp=7&=kiy$*fp$e^ox8o_0x%-^2t91%&44'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
