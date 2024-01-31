@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7282a5ed.css",
-    "main.js": "/static/js/main.d8a20391.js",
+    "main.js": "/static/js/main.61661b7c.js",
     "static/js/787.2b66e6b9.chunk.js": "/static/js/787.2b66e6b9.chunk.js",
     "static/media/gcash-logo.png": "/static/media/gcash-logo.0b924e4278f12cc6398b.png",
     "static/media/infortal-logo-white-cropped.png": "/static/media/infortal-logo-white-cropped.233b983371782106bfc8.png",
@@ -14,11 +14,11 @@
     "static/media/creditCard.svg": "/static/media/creditCard.6d3367d7f288f8caa601b49804214eca.svg",
     "index.html": "/index.html",
     "main.7282a5ed.css.map": "/static/css/main.7282a5ed.css.map",
-    "main.d8a20391.js.map": "/static/js/main.d8a20391.js.map",
+    "main.61661b7c.js.map": "/static/js/main.61661b7c.js.map",
     "787.2b66e6b9.chunk.js.map": "/static/js/787.2b66e6b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7282a5ed.css",
-    "static/js/main.d8a20391.js"
+    "static/js/main.61661b7c.js"
   ]
 }
