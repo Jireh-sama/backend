@@ -16,7 +16,12 @@ import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATABASE_URL = "postgresql://postgres:aFAEd2cD1Df3*-bF5cA4-1dcd33faaBC@viaduct.proxy.rlwy.net:27759/railway"
+
+#RAILWAY
+# DATABASE_URL = "postgresql://postgres:aFAEd2cD1Df3*-bF5cA4-1dcd33faaBC@viaduct.proxy.rlwy.net:40005/railway"
+
+#RENDER
+DATABASE_URL = "postgres://infortal_database_user:emrjOL4rikBpXxsZpSqyRBwtePej4g1h@dpg-cmsruuun7f5s73ahtd90-a.oregon-postgres.render.com/infortal_database"
 
 
 # from datetime import timedelta
@@ -108,8 +113,23 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # }
 
 DATABASES = {
-  "default": dj_database_url.config(default=DATABASE_URL, conn_max_age=1800),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'infortal_database',
+        'USER': 'infortal_database_user',
+        'PASSWORD': 'emrjOL4rikBpXxsZpSqyRBwtePej4g1h',
+        'HOST': 'dpg-cmsruuun7f5s73ahtd90-a.oregon-postgres.render.com',
+        'PORT': '5432',
+    }
 }
+
+#railway
+# DATABASES = {
+#   "default": dj_database_url.config(default=DATABASE_URL, conn_max_age=1800),
+# }
+
+
+# DATABASES["default"] = dj_database_url.parse("postgres://infortal_database_user:emrjOL4rikBpXxsZpSqyRBwtePej4g1h@dpg-cmsruuun7f5s73ahtd90-a.oregon-postgres.render.com/infortal_database")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
